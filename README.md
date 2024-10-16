@@ -11,7 +11,7 @@ Esta es una aplicación Flutter que consume datos de una API REST y muestra una 
 
 ## Requisitos
 
-- Flutter (version 2.0 o superior)
+- Flutter (version 3.0 o superior)
 - Dart
 
 ## Instalación
