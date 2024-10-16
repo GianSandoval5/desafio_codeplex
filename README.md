@@ -1,16 +1,68 @@
-# desafio_codeplex
+# Product List App
 
-A new Flutter project.
+Esta es una aplicación Flutter que consume datos de una API REST y muestra una lista de productos. Si no hay conexión a Internet, la aplicación utiliza Hive para mostrar datos almacenados localmente.
 
-## Getting Started
+## Características
 
-This project is a starting point for a Flutter application.
+- Consumo de API REST para obtener productos de [Fake Store API](https://fakestoreapi.com/products).
+- Manejo de estado utilizando el patrón Provider.
+- Almacenamiento local de datos utilizando Hive.
+- Interfaz de usuario simple y responsiva.
 
-A few resources to get you started if this is your first Flutter project:
+## Requisitos
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Flutter (version 2.0 o superior)
+- Dart
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Instalación
+
+1. **Clona este repositorio:**
+
+   ```bash
+   git clone <URL_DEL_REPOSITORIO>
+   
+   bash
+   
+    cd product_list_app
+
+    bash
+
+    flutter pub get
+
+    bash
+
+    flutter run
+
+Estructura del Proyecto
+lib/
+main.dart: Punto de entrada de la aplicación.
+product_provider.dart: Contiene la lógica para obtener productos de la API y manejar el estado utilizando Provider.
+product.dart: Modelo de datos para los productos.
+product_list_screen.dart: Pantalla que muestra la lista de productos.
+Uso
+Al iniciar la aplicación, se realiza una solicitud a la API para obtener la lista de productos. Si hay conexión a Internet, los datos se muestran en una lista. Si no hay conexión, la aplicación recupera los datos almacenados localmente en Hive.
+
+Navegación
+Haz clic en un producto para navegar a una pantalla de detalles (si se implementa).
+Contribuciones
+Las contribuciones son bienvenidas. Si deseas contribuir, por favor sigue estos pasos:
+
+Haz un fork del repositorio.
+Crea una nueva rama (git checkout -b feature/nueva-funcionalidad).
+Realiza tus cambios y haz un commit (git commit -m 'Agregando nueva funcionalidad').
+Sube tus cambios (git push origin feature/nueva-funcionalidad).
+Abre un Pull Request.
+Licencia
+Este proyecto está bajo la Licencia MIT. Para más detalles, consulta el archivo LICENSE.
+
+Autor
+Gian Sandoval
+
+
+### Personalización
+
+- **URL_DEL_REPOSITORIO**: Cambia esto por la URL real del repositorio donde está alojada tu aplicación.
+- **Funcionalidades adicionales**: Si has implementado más características o funciones en la aplicación, asegúrate de incluirlas en la sección de características.
+- **Instrucciones de contribución**: Si deseas aceptar contribuciones, asegúrate de que las instrucciones sean claras y específicas.
+
+Si tienes más elementos que quieras agregar o necesitas realizar ajustes, ¡hazmelo saber!
