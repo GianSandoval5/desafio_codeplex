@@ -19,7 +19,7 @@ Esta es una aplicación Flutter que consume datos de una API REST y muestra una 
 1. **Clona este repositorio:**
 
    ```bash
-   git clone <URL_DEL_REPOSITORIO>
+   git clone <https://github.com/GianSandoval5/desafio_codeplex.git>
    
    bash
    
@@ -61,7 +61,7 @@ Gian Sandoval
 
 ### Personalización
 
-- **URL_DEL_REPOSITORIO**: Cambia esto por la URL real del repositorio donde está alojada tu aplicación.
+- **https://github.com/GianSandoval5/desafio_codeplex.git**: Cambia esto por la URL real del repositorio donde está alojada tu aplicación.
 - **Funcionalidades adicionales**: Si has implementado más características o funciones en la aplicación, asegúrate de incluirlas en la sección de características.
 - **Instrucciones de contribución**: Si deseas aceptar contribuciones, asegúrate de que las instrucciones sean claras y específicas.
 
