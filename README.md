@@ -57,12 +57,3 @@ Este proyecto está bajo la Licencia MIT. Para más detalles, consulta el archiv
 
 Autor
 Gian Sandoval
-
-
-### Personalización
-
-- **https://github.com/GianSandoval5/desafio_codeplex.git**: Cambia esto por la URL real del repositorio donde está alojada tu aplicación.
-- **Funcionalidades adicionales**: Si has implementado más características o funciones en la aplicación, asegúrate de incluirlas en la sección de características.
-- **Instrucciones de contribución**: Si deseas aceptar contribuciones, asegúrate de que las instrucciones sean claras y específicas.
-
-Si tienes más elementos que quieras agregar o necesitas realizar ajustes, ¡hazmelo saber!
